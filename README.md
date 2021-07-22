@@ -6,7 +6,7 @@
 
 <br>
 
-### ▪ 브라우저 저장소에 대해서 설명해 보세요[🔗]()
+### ▪ 브라우저 저장소에 대해서 설명해 보세요[🔗](https://github.com/cuttleman/frontend-interview/blob/main/src/storage/storage.md)
 
 ```
 ex) 로컬 스토리지, 세션 스토리지, 쿠키 각각 설명
