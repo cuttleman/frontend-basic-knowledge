@@ -15,7 +15,7 @@ ex) 로컬 스토리지와 쿠키의 차이점 설명
 
 <br>
 
-### ▪ 자바스크립트 this란?[🔗]()
+### ▪ 자바스크립트 this란?[🔗](https://github.com/cuttleman/frontend-interview/blob/main/src/this/this.md)
 
 ```
 ex) 화살표 함수, call, bind, apply 등
