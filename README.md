@@ -23,12 +23,21 @@ ex) 화살표 함수, call, bind, apply 등
 
 <br>
 
-### ▪ 자바스크립트 이벤트 관리 방법? 보통 어떤 식으로 이벤트를 설계해야 하는지?[🔗](https://github.com/cuttleman/frontend-interview/blob/main/src/event-listener/event-listener.md)
+### ▪ 자바스크립트 이벤트 관리 방법? 보통 어떤 식으로 이벤트를 설계해야 하는지?[🔗](https://github.com/cuttleman/frontend-interview/blob/main/src/data-binding.md/event-listener.md)
 
 ```
 ex) 이벤트 캡처링 & 버블링
 ex) 이벤트 등록 & 해제
 ex) 이벤트 위임 방식 등
+```
+
+<br>
+
+### ▪ 데이터 바인딩이란?[🔗](https://github.com/cuttleman/frontend-interview/blob/main/src/data-binding/data-binding.md)
+
+```
+ex) 단방향 바인딩 vs 양방향 바인딩
+ex) 적용되어지는 기술(프레임워크, 라이브러리)
 ```
 
 <br>
