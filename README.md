@@ -42,7 +42,16 @@ ex) 적용되어지는 기술(프레임워크, 라이브러리)
 
 <br>
 
-### ▪ 자바스크립트 비동기 처리에 대한 설명[🔗]()
+### ▪ prototype 기반 자바스크립트란?[🔗](https://github.com/cuttleman/frontend-interview/blob/main/src/prototype/prototype.md)
+
+```
+ex) 객체의 [[prototype]]
+ex) prototype의 역할
+```
+
+<br>
+
+### ▪ 자바스크립트 비동기 처리에 대한 설명[🔗](https://github.com/cuttleman/frontend-interview/blob/main/src/async/async.md)
 
 ```
 ex) 콜백, 프로미스, async await
