@@ -189,3 +189,50 @@ console.log("end");
 `start - foo - bar - end - rep - liz - foo - baz`
 
 - requestAnimationFrame은 setTimeout과 같이 매크로태스크에 배정되지만, rAF는 렌더링 직전에 실행되고, setTimeout은 렌더링 후에 실행되서 실행 우선순위가 다름. (브라우저마다 매크로태스크 함수 실행 순서가 달라 결과가 다르게 나올 수 있음.)
+
+```js
+async function test() {
+  try {
+    setTimeout(() => {
+      throw new Error("1");
+    }, 2000);
+  } catch (err) {
+    console.log(err);
+    console.log("2");
+  } finally {
+    console.log("3");
+  }
+  console.log("4");
+}
+
+test();
+```
+
+출력값은??
+
+`3 - 4 - Err 1`
+
+- setTimeout은 web api로 넘어가서 2초후 매크로태스크 큐에 들어가기 때문에 catch문에 안잡히고 finally문으로 바로 넘어감. 이후 test함수 컨텍스트안 실행 순서대로 진행됨.
+
+1 - 2 - 3 - 4 로 출력되게 하려면 어떻게 해야하는가?
+
+```js
+// solution
+async function test() {
+  try {
+    await new Promise((resolve, reject) => {
+      setTimeout(() => {
+        throw new Error("1");
+      }, 2000);
+    });
+  } catch (err) {
+    console.log(err);
+    console.log("2");
+  } finally {
+    console.log("3");
+  }
+  console.log("4");
+}
+
+test();
+```
