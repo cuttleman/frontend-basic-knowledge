@@ -222,7 +222,7 @@ async function test() {
   try {
     await new Promise((resolve, reject) => {
       setTimeout(() => {
-        throw new Error("1");
+        reject(new Error("1"));
       }, 2000);
     });
   } catch (err) {
