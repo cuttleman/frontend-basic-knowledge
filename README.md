@@ -6,7 +6,7 @@
 
 <br>
 
-### ▪ 브라우저 저장소에 대해서 설명해 보세요[🔗](https://github.com/cuttleman/frontend-interview/blob/main/src/storage/storage.md)
+### ▪ 브라우저 저장소에 대해서 설명해 보세요[🔗](https://github.com/cuttleman/frontend-interview/blob/main/src/storage)
 
 ```
 ex) 로컬 스토리지, 세션 스토리지, 쿠키 각각 설명
@@ -15,7 +15,7 @@ ex) 로컬 스토리지와 쿠키의 차이점 설명
 
 <br>
 
-### ▪ 자바스크립트 this란?[🔗](https://github.com/cuttleman/frontend-interview/blob/main/src/this/this.md)
+### ▪ 자바스크립트 this란?[🔗](https://github.com/cuttleman/frontend-interview/blob/main/src/this)
 
 ```
 ex) 화살표 함수, call, bind, apply 등
@@ -23,7 +23,7 @@ ex) 화살표 함수, call, bind, apply 등
 
 <br>
 
-### ▪ 자바스크립트 이벤트 관리 방법? 보통 어떤 식으로 이벤트를 설계해야 하는지?[🔗](https://github.com/cuttleman/frontend-interview/blob/main/src/data-binding.md/event-listener.md)
+### ▪ 자바스크립트 이벤트 관리 방법? 보통 어떤 식으로 이벤트를 설계해야 하는지?[🔗](https://github.com/cuttleman/frontend-interview/blob/main/src/event-listener)
 
 ```
 ex) 이벤트 캡처링 & 버블링
@@ -33,7 +33,7 @@ ex) 이벤트 위임 방식 등
 
 <br>
 
-### ▪ 데이터 바인딩이란?[🔗](https://github.com/cuttleman/frontend-interview/blob/main/src/data-binding/data-binding.md)
+### ▪ 데이터 바인딩이란?[🔗](https://github.com/cuttleman/frontend-interview/blob/main/src/data-binding)
 
 ```
 ex) 단방향 바인딩 vs 양방향 바인딩
@@ -42,7 +42,7 @@ ex) 적용되어지는 기술(프레임워크, 라이브러리)
 
 <br>
 
-### ▪ prototype 기반 자바스크립트란?[🔗](https://github.com/cuttleman/frontend-interview/blob/main/src/prototype/prototype.md)
+### ▪ prototype 기반 자바스크립트란?[🔗](https://github.com/cuttleman/frontend-interview/blob/main/src/prototype)
 
 ```
 ex) 객체의 [[prototype]]
@@ -51,7 +51,7 @@ ex) prototype의 역할
 
 <br>
 
-### ▪ 자바스크립트 비동기 처리에 대한 설명[🔗](https://github.com/cuttleman/frontend-interview/blob/main/src/async/async.md)
+### ▪ 자바스크립트 비동기 처리에 대한 설명[🔗](https://github.com/cuttleman/frontend-interview/blob/main/src/async)
 
 ```
 ex) 콜백, 프로미스, async await
@@ -67,7 +67,7 @@ ex) 자바스크립트 이벤트 처리 순서에 대해(마이크로태스크, 
 
 <br>
 
-### ▪ 프런트엔드 빌드 시스템에 대해서 설명해보세요.[🔗](https://github.com/cuttleman/frontend-interview/blob/main/src/buildSystem/buildSystem.md)
+### ▪ 프런트엔드 빌드 시스템에 대해서 설명해보세요.[🔗](https://github.com/cuttleman/frontend-interview/blob/main/src/buildSystem)
 
 ```
  ex) 바벨이란?
@@ -79,7 +79,16 @@ ex) 자바스크립트 이벤트 처리 순서에 대해(마이크로태스크, 
 
 <br>
 
-### ▪ Nodejs에 대해 설명해보세요.[🔗](https://github.com/cuttleman/frontend-interview/blob/main/src/nodejs/nodejs.md)
+### ▪ 이벤트 제어란 [🔗](https://github.com/cuttleman/frontend-interview/blob/main/src/event-control)
+
+```
+ex) Throttle vs Debounce 차이
+ex) 사용함으로써 얻는 이점과 예제코드
+```
+
+<br>
+
+### ▪ Nodejs에 대해 설명해보세요.[🔗](https://github.com/cuttleman/frontend-interview/blob/main/src/nodejs)
 
 ```
 ex) 웹 태스크 매니저란?
